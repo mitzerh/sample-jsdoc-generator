@@ -1,6 +1,6 @@
 {
   "name": "sample-jsdoc-generator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Sample using jsdoc-generator",
   "scripts": {
     "doc": "node ./doc.js"

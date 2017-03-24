@@ -26,17 +26,14 @@ const Generator = require('jsdoc-generator');
 
 const jsdoc = new Generator({
     dest: config.dir.dest + '/documentation',
-    paths: [
-        {
-            name: 'my.app',
-            source: config.dir.base + '/sample/app'
-        },
-        {
-            name: 'my.other.app',
-            source: config.dir.base + '/sample/other-app'
-        }
-
-    ]
+    paths: [{
+        name: 'my.app',
+        source: config.dir.base + '/sample/app'
+    },
+    {
+        name: 'my.other.app',
+        source: config.dir.base + '/sample/other-app'
+    }]
 });
 
 jsdoc.generate();
