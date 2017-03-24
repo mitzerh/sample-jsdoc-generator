@@ -1,0 +1,35 @@
+{
+  "name": "sample-jsdoc-generator",
+  "version": "1.0.0",
+  "description": "Sample using jsdoc-generator",
+  "scripts": {
+    "doc": "node ./doc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitzerh/sample-jsdoc-generator.git"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitzerh/sample-jsdoc-generator/issues"
+  },
+  "homepage": "https://github.com/mitzerh/sample-jsdoc-generator#readme",
+  "dependencies": {
+    "cli-helper": "^0.1.0",
+    "jsdoc-generator": "0.0.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true
+    }
+  }
+}
