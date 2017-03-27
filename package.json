@@ -24,7 +24,7 @@
   "homepage": "https://github.com/mitzerh/sample-jsdoc-generator#readme",
   "dependencies": {
     "cli-helper": "^0.1.0",
-    "jsdoc-generator": "^0.2.0"
+    "jsdoc-generator": "^0.2.3"
   },
   "eslintConfig": {
     "env": {
